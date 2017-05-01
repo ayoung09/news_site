@@ -6,7 +6,7 @@ const initialState = {
 const SET_USER = 'SET_USER';
 
 //reducer
-const userReducer = (prevState, action) => {
+const userReducer = (prevState = initialState, action) => {
   const nextState = Object.assign({}, prevState);
 
   switch (action.type) {

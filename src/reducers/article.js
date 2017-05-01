@@ -1,25 +1,11 @@
+import sections from '../config/Sections.json';
+
 const initialState = {
   allArticles: [],
   filteredArticles: [],
   currentArticle: {},
-  sections: [
-  {
-    "label": "OPINION",
-    "value": "opinion"
-  },
-  {
-    "label": "WORLD",
-    "value": "world"
-  },
-  {
-    "label": "NATIONAL",
-    "value": "national"
-  },
-  {
-    "label": "BUSINESS",
-    "value": "business"
-  }]
-}
+  sections: sections,
+};
 
 //constants
 const SET_ALL_ARTICLES = 'SET_ALL_ARTICLES';

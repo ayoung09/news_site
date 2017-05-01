@@ -9,8 +9,8 @@ const mapStateToProps = state => ({
 class Navbar extends Component {
   render () {
     return (
-      <div className="navbar">
-      <h2>NewsToday</h2>
+      <div id="navbar">
+      <Link to="/"><h2 id="navbar-header">NewsToday</h2></Link>
         {this.props.sections.map((section, index) => (
           <div key={index} className="navbar-item">
             <Link to={`/articles/${section.value}`}>{section.label}</Link>

@@ -1,4 +1,4 @@
-import { combineReducers } from 'react-redux';
+import { combineReducers } from 'redux';
 
 const rootReducer = combineReducers({
   user: require('./user').default,

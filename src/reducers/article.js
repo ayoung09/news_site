@@ -2,6 +2,23 @@ const initialState = {
   allArticles: [],
   filteredArticles: [],
   currentArticle: {},
+  sections: [
+  {
+    "label": "OPINION",
+    "value": "opinion"
+  },
+  {
+    "label": "WORLD",
+    "value": "world"
+  },
+  {
+    "label": "NATIONAL",
+    "value": "national"
+  },
+  {
+    "label": "BUSINESS",
+    "value": "business"
+  }]
 }
 
 //constants
